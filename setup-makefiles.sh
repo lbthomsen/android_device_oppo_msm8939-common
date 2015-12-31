@@ -232,7 +232,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifneq (\$(filter r5 r7 r7plus,\$(TARGET_DEVICE)),)
+ifneq (\$(filter r5 r7 r7plus r7lite,\$(TARGET_DEVICE)),)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
